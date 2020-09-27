@@ -19,11 +19,11 @@ public class stringPalindrome{
         System.out.print("Enter String to be checked : ");
         String str = sc.nextLine();
         
-        if (isPalindrome(str))
+        if (isPalindrome(str)){
             System.out.println(str+" is a palindrome");
-        else
+        }else{
             System.out.println(str+" is not a palindrome");
-
+        }
         sc.close();
     }
 }
