@@ -30,9 +30,10 @@ class Solution:
         def isPalindrome(self, s):
             y = str(s)
             x  = s.reverse()
-            if y == x:
-                return TRue
+            return y == x
+            """if y == x:
+                return True
             else:
-                return False
+                return False"""
                 
 
