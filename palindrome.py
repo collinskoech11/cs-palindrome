@@ -7,8 +7,7 @@ Note: For the purpose of this problem, we define empty string as valid palindrom
 class Solution:
     def isPalindrome(self, s:):
         y = str(s)
-        a_pointer = 0
-        b_pointer = len(y) - 1
+        a_pointer,b_pointer  = 0, len(y) - 1
 
         while a_pointer < b_pointer:
 
