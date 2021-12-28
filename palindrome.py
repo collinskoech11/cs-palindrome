@@ -3,7 +3,7 @@ Valid Palindrome:
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 Note: For the purpose of this problem, we define empty string as valid palindrome.
 """
-
+#Binary SEarch Solution
 class Solution:
     def isPalindrome(self, s:):
         y = str(s)
@@ -24,4 +24,15 @@ class Solution:
             b_pointer -= 1
 
         return True
+    
+    #Second Solution 
+    class Solution:
+        def isPalindrome(self, s):
+            y = str(s)
+            x  = s.reverse()
+            if y == x:
+                return TRue
+            else:
+                return False
+                
 
